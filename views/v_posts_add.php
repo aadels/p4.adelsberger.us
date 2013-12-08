@@ -19,6 +19,12 @@
         <input type='submit' class="button" value='See Mad-lib!'> 
     </fieldset>          
 </form>
+    
 
-        <div id='results'></div> 
+    <div id='results'></div>
+
+
+
+
+
 

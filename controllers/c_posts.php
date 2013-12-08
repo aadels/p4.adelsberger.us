@@ -46,7 +46,7 @@ class posts_controller extends base_controller{
 		$_POST['modified'] = Time::now();
 
         // Escape HTML chars (XSS attacks)
-        $_POST['content'] = stripslashes(htmlspecialchars($_POST['content']));
+        $_POST['content'] = stripslashes(htmlspecialchars('content'));
 
 		//Insert
 		//We didn't have to sanitize any of the $_POST data because we're using the insert method which does it for us.
