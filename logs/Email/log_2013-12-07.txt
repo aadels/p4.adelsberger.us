@@ -1,0 +1,182 @@
+2013-12-07 9:17:31 - INFO --> -------------------------- 
+2013-12-07 9:17:31 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 9:17:31 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 9:17:31 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 9:17:31 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 9:17:31 - INFO --> CC:  
+2013-12-07 9:17:31 - INFO --> BCC:  
+2013-12-07 9:17:31 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 9:17:31 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 9:17:47 - INFO --> -------------------------- 
+2013-12-07 9:17:47 - INFO --> Controller/Method: users/p_login 
+2013-12-07 9:17:47 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 9:17:47 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 9:17:47 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 9:17:47 - INFO --> CC:  
+2013-12-07 9:17:47 - INFO --> BCC:  
+2013-12-07 9:17:47 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 9:17:47 - INFO --> Body: <h2>SQL Error</h2> SELECT token 
+        FROM users 
+        WHERE email = 'adelsbergerann@gmail.com' 
+        AND password = '4a520cc2be54186af30d01417f96a54a9cb19acf' No database selected<h2>Query History</h2>0 = SELECT token 
+        FROM users 
+        WHERE email = 'adelsbergerann@gmail.com' 
+  
+2013-12-07 9:54:18 - INFO --> -------------------------- 
+2013-12-07 9:54:18 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 9:54:18 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 9:54:18 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 9:54:18 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 9:54:18 - INFO --> CC:  
+2013-12-07 9:54:18 - INFO --> BCC:  
+2013-12-07 9:54:18 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 9:54:18 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 10:50:15 - INFO --> -------------------------- 
+2013-12-07 10:50:15 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 10:50:15 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 10:50:15 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 10:50:15 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 10:50:15 - INFO --> CC:  
+2013-12-07 10:50:15 - INFO --> BCC:  
+2013-12-07 10:50:15 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 10:50:15 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 11:01:03 - INFO --> -------------------------- 
+2013-12-07 11:01:03 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 11:01:03 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 11:01:03 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 11:01:03 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 11:01:03 - INFO --> CC:  
+2013-12-07 11:01:03 - INFO --> BCC:  
+2013-12-07 11:01:03 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 11:01:03 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 11:29:38 - INFO --> -------------------------- 
+2013-12-07 11:29:38 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 11:29:38 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 11:29:38 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 11:29:38 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 11:29:38 - INFO --> CC:  
+2013-12-07 11:29:38 - INFO --> BCC:  
+2013-12-07 11:29:38 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 11:29:38 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 11:31:20 - INFO --> -------------------------- 
+2013-12-07 11:31:20 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 11:31:20 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 11:31:20 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 11:31:20 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 11:31:20 - INFO --> CC:  
+2013-12-07 11:31:20 - INFO --> BCC:  
+2013-12-07 11:31:20 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 11:31:20 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 11:31:39 - INFO --> -------------------------- 
+2013-12-07 11:31:39 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 11:31:39 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 11:31:39 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 11:31:39 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 11:31:39 - INFO --> CC:  
+2013-12-07 11:31:39 - INFO --> BCC:  
+2013-12-07 11:31:39 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 11:31:39 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 11:37:49 - INFO --> -------------------------- 
+2013-12-07 11:37:49 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 11:37:49 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 11:37:49 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 11:37:49 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 11:37:49 - INFO --> CC:  
+2013-12-07 11:37:49 - INFO --> BCC:  
+2013-12-07 11:37:49 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 11:37:49 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 12:20:49 - INFO --> -------------------------- 
+2013-12-07 12:20:49 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 12:20:49 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 12:20:49 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 12:20:49 - INFO --> To: Madlibs! (adelsbergerann@gmail.com),  
+2013-12-07 12:20:49 - INFO --> CC:  
+2013-12-07 12:20:49 - INFO --> BCC:  
+2013-12-07 12:20:49 - INFO --> Subject: Madlibs! SQL Error 
+2013-12-07 12:20:49 - INFO --> Body: <h2>SQL Error</h2> SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com' No database selected<h2>Query History</h2>0 = SELECT email FROM users WHERE email = 'adelsbergerann@gmail.com'<br><h2>SERVER</h2><pre>Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => localhost
+    [HTTP_CONNEC 
+2013-12-07 13:53:44 - INFO --> -------------------------- 
+2013-12-07 13:53:44 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 13:53:44 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 13:53:44 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 13:53:44 - INFO --> To: Ann  (adelsbergerann@gmail.com),  
+2013-12-07 13:53:44 - INFO --> CC:  
+2013-12-07 13:53:44 - INFO --> BCC:  
+2013-12-07 13:53:44 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-07 13:53:44 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 
+2013-12-07 20:45:40 - INFO --> -------------------------- 
+2013-12-07 20:45:40 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 20:45:40 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 20:45:40 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 20:45:40 - INFO --> To: clem (clem@gmail.com),  
+2013-12-07 20:45:40 - INFO --> CC:  
+2013-12-07 20:45:40 - INFO --> BCC:  
+2013-12-07 20:45:40 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-07 20:45:40 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 
+2013-12-07 20:45:58 - INFO --> -------------------------- 
+2013-12-07 20:45:58 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 20:45:58 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 20:45:58 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 20:45:58 - INFO --> To: :arry (larry@gmail.com),  
+2013-12-07 20:45:58 - INFO --> CC:  
+2013-12-07 20:45:58 - INFO --> BCC:  
+2013-12-07 20:45:58 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-07 20:45:58 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 
+2013-12-07 20:46:19 - INFO --> -------------------------- 
+2013-12-07 20:46:19 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 20:46:19 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 20:46:19 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 20:46:19 - INFO --> To: Super (super@gmail.com),  
+2013-12-07 20:46:19 - INFO --> CC:  
+2013-12-07 20:46:19 - INFO --> BCC:  
+2013-12-07 20:46:19 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-07 20:46:19 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 
+2013-12-07 20:46:47 - INFO --> -------------------------- 
+2013-12-07 20:46:47 - INFO --> Controller/Method: users/p_signup 
+2013-12-07 20:46:47 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-07 20:46:47 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-07 20:46:47 - INFO --> To: Julie (julie@gmail.com),  
+2013-12-07 20:46:47 - INFO --> CC:  
+2013-12-07 20:46:47 - INFO --> BCC:  
+2013-12-07 20:46:47 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-07 20:46:47 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 
