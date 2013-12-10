@@ -14,7 +14,7 @@ class posts_controller extends base_controller{
 	public function add_1($error = NULL){
 
 		//Set up view
-		$this ->template->content = View::instance('v_posts_add_1');
+		$this ->template->content = View::instance('v_madlibs_add_1');
 		$this->template->title = "New Madlib!";
 
 		//Pass errors, if any
@@ -59,7 +59,7 @@ class posts_controller extends base_controller{
 public function add_2($error = NULL){
 
 		//Set up view
-		$this ->template->content = View::instance('v_posts_add_2');
+		$this ->template->content = View::instance('v_madlibs_add_2');
 		$this->template->title = "New Madlib!";
 
 		//Pass errors, if any

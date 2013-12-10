@@ -1,4 +1,4 @@
-<form class="madlib_form" id="madlib1" method='post' action='/posts/p_add_skakespear'>
+<form class="madlib_form" id="madlib1" method='post' action='/posts/p_add_1'>
     <fieldset id= "form-fieldset">
         Animal: <input type="text" name="input1" required size=20><br>
         Adjective: <input type="text"  name="input2" required size=20><br>
@@ -14,7 +14,6 @@
         Adjective: <input type="text" name="input12" required><br>
         Adjective: <input type="text" name="input13" required><br>
         Adjective: <input type="text" name="input14" required><br>
-
 
         <input type='submit' class="button" value='See Mad-lib!'> 
     </fieldset>          

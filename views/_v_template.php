@@ -37,10 +37,13 @@
 									<!-- Menu for users who are logged in-->
 									<?php if($user): ?>
 								        <li>
-								        	<a href='/posts'>View Madlibs</a> 
+								        	<a href='/posts/add_1'>Madlib 1</a> 
 								        </li>
 								        <li> 
-								        	<a href='/posts/add_shakespear'>Choose a Madlib</a> 
+								        	<a href='/posts/add_2'>Madlib 2</a> 
+								        </li>
+								        <li>
+								        	<a href='/posts'>View Madlibs</a> 
 								        </li>
 								        <li>                       
 								        	<a href='/posts/users'>Follow Others</a> 
@@ -81,13 +84,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <p>Madlibs!<br>
-                           +1 features:<br>
-                        </p>
-                        <ul>
-                            <li>Emailing a welcome letter to new users.</li>
-                            <li>Uploading/changing profile picture</li>
-                        </ul>
+                        <p><a href='/'>Madlibs!</a></p>
                     </div>
                     <div class="col-xs-6">
                         <p class="right pull-right">Ann Adelsberger<br>
