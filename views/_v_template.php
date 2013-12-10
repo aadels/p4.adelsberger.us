@@ -11,7 +11,7 @@
 	    <link href="/css/bootstrap.min.css" rel="stylesheet">
 				
 		<!-- Controller Specific JS/CSS -->
-		
+		<?php if(isset($client_files_head)) echo $client_files_head; ?>
 		<!--custom css-->
 	</head>
 
@@ -40,7 +40,7 @@
 								        	<a href='/posts'>View Madlibs</a> 
 								        </li>
 								        <li> 
-								        	<a href='/posts/add'>Choose a Madlib</a> 
+								        	<a href='/posts/add_shakespear'>Choose a Madlib</a> 
 								        </li>
 								        <li>                       
 								        	<a href='/posts/users'>Follow Others</a> 

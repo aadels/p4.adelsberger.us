@@ -11,10 +11,10 @@ class posts_controller extends base_controller{
 		}
 	}	
 		
-	public function add($error = NULL){
+	public function add_1($error = NULL){
 
 		//Set up view
-		$this ->template->content = View::instance('v_posts_add');
+		$this ->template->content = View::instance('v_posts_add_1');
 		$this->template->title = "New Madlib!";
 
 		//Pass errors, if any
@@ -32,10 +32,55 @@ class posts_controller extends base_controller{
 		echo $this->template;
 	}	
 
-	public function p_add(){
+	public function p_add_1(){
 
 		# Load the madlib view
-		$view = View::instance('v_madlibs_shakespear');
+		$view = View::instance('v_madlibs_1');
+
+		# Pass all the inputs to the madlib view
+		$view->data = $_POST;
+
+		# Prepare the data to save
+		$madlib['content'] = $view; # Note the content is actually the view
+		$madlib['created'] = Time::now();
+		$madlib['user_id'] = $this->user->user_id;
+
+		# Save
+		DB::instance(DB_NAME)->insert('madlibs', $madlib);
+		
+
+		# Now we load the $view into the main template...didn't do this before the DB insert because we didn't want to save the entire template in the DB.
+		$this->template->content = $view;
+
+		# Display the results
+		echo $this->template;				
+	}
+
+public function add_2($error = NULL){
+
+		//Set up view
+		$this ->template->content = View::instance('v_posts_add_2');
+		$this->template->title = "New Madlib!";
+
+		//Pass errors, if any
+		$this->template->content->error = $error;
+
+		//Load JS files
+        $client_files_body = Array(
+        	//'/js/madlib_add.js', 
+        	'/js/jquery.form.js'
+        );
+
+        $this->template->client_files_body = Utils::load_client_files($client_files_body);
+
+		//Render Template
+		echo $this->template;
+	}	
+
+	public function p_add_2(){
+
+		# Load the madlib view
+		$view = View::instance('v_madlibs_2');
 
 		# Pass all the inputs to the madlib view
 		$view->data = $_POST;
