@@ -1,4 +1,4 @@
-<form class="madlib_form" method='post' action='/posts/p_add'>
+<form class="madlib_form" id="madlib1" method='post' action='/posts/p_add'>
     <fieldset id= "form-fieldset">
         Animal: <input type="text" name="input1" required size=20><br>
         Adjective: <input type="text"  name="input2" required size=20><br>
@@ -20,8 +20,6 @@
     </fieldset>          
 </form>
     
-
-    <div id='results'></div>
 
 
 

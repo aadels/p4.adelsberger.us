@@ -1,5 +1,3 @@
-
-	
 <?
 echo "O ". ($_POST['input1'])." heart, hid with a(n) ". ($_POST['input2'])." face! <br>
 Did ever dragon keep so fair a ".($_POST['input3']).".

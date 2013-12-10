@@ -22,7 +22,7 @@ class posts_controller extends base_controller{
 
 		//Load JS files
         $client_files_body = Array(
-        	'/js/madlib_add.js', 
+        	//'/js/madlib_add.js', 
         	'/js/jquery.form.js'
         );
 
@@ -35,26 +35,25 @@ class posts_controller extends base_controller{
 
 	public function p_add(){
 
-		//Store time data for Madlib
-        //$_POST['content']  = '#results';
-   
-    	//Associate this post with this user
-		$_POST['user_id'] = $this->user->user_id;
+		# Load the madlib view
+		$view = View::instance('v_madlibs_shakespear');
 
-		//Unix timestamp for when post is created and modified
-		$_POST['created']  = Time::now();
-		$_POST['modified'] = Time::now();
+		# Pass all the inputs to the madlib view
+		$view->data = $_POST;
 
-        // Escape HTML chars (XSS attacks)
-        $_POST['content'] = stripslashes(htmlspecialchars('content'));
+		# Prepare the data to save
+		$madlib['content'] = $view; # Note the content is actually the view
+		$madlib['created'] = Time::now();
+		$madlib['user_id'] = $this->user->user_id;
 
-		//Insert
-		//We didn't have to sanitize any of the $_POST data because we're using the insert method which does it for us.
-		DB::instance(DB_NAME)->insert('posts', $_POST);
+		# Save
+		DB::instance(DB_NAME)->insert('madlibs', $madlib);
 
+		# Now we load the $view into the main template...didn't do this before the DB insert because we didn't want to save the entire template in the DB.
+		echo $this->template->content = $view;
 
-		//Redirect to posts page
-		Router::redirect("/posts/");
+		# Display the results
+		echo $this->template;
 				
 	}
 	
@@ -118,29 +117,29 @@ class posts_controller extends base_controller{
 	 public function index(){
 	 	//Set up the view
 	 	$this->template->content = View::instance('v_posts_index');
-	 	$this->template->title = "Posts";
+	 	$this->template->title = "Madlibs";
 
 	 	//Build the query
 	 	$q = 'SELECT 
-            posts.content,
-            posts.created, 
-            posts.user_id AS post_user_id,
+            madlibs.content,
+            madlibs.created, 
+            madlibs.user_id AS post_user_id,
             users_users.user_id AS follower_id,
             users.first_name, 
             users.last_name,
             users.image
-        FROM posts
+        FROM madlibs
         INNER JOIN users_users 
-            ON posts.user_id = users_users.user_id_followed
+            ON madlibs.user_id = users_users.user_id_followed
         INNER JOIN users
-        	ON posts.user_id = users.user_id
+        	ON madlibs.user_id = users.user_id
         WHERE users_users.user_id = '.$this->user->user_id;
 
             //Run the query
-            $posts = DB::instance(DB_NAME)->select_rows($q);
+            $madlibs = DB::instance(DB_NAME)->select_rows($q);
 
             //Pass the data to the View
-            $this->template->content->posts = $posts;
+            $this->template->content->madlibs = $madlibs;
 
             //Render the view
             echo $this->template;

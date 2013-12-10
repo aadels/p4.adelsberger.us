@@ -1,8 +1,10 @@
+
+
 // Set up the options for ajax
  var options = {
                     
     type: 'post',
-    url: '/process/process1.php',
+    url: '/views/v_madlibs_shakespear.php',
     beforeSend: function() {   
     //Display a loading message while waiting for the ajax call to complete
         $('#results').html("Loading...");

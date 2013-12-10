@@ -10,11 +10,11 @@
 
 <br><br>
 
-<?php if (count($posts) == 0) :?>
+<?php if (count($madlibs) == 0) :?>
         <p>You are not following anyone yet. Follow  <a href="/posts/users">other users here!</a></p>
 <?php endif; ?>
 
-<?php foreach($posts as $post): ?>
+<?php foreach($madlibs as $madlib): ?>
 
 
 	<div class="row">
@@ -23,10 +23,10 @@
         </aside>
     	<article class="col-xs-9 col-xs-offset-1 col-lg-10 col-lg-offset-1 ">
         	<div class="well post">
-				<h4> <?=$post['first_name']?> <?=$post['last_name'] ?> posted: </h4>
-				<p><?=$post['content'] ?></p>
+				<h4> <?=$madlib['first_name']?> <?=$madlib['last_name'] ?> posted: </h4>
+				<p><?=$madlib['content'] ?></p>
 				<time datetime="<?=Time::display($post['created'],'Y-m-d G:i')?>">
-					<small><?=Time::display($post['created'])?></small>
+					<small><?=Time::display($madlib['created'])?></small>
 				</time>
 			</div>
 		</article>
