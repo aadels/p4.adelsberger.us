@@ -199,7 +199,7 @@ class users_controller extends base_controller {
         echo $this->template;
 
     }
-    public function profile_image() {
+     public function profile_image() {
         // if user selects a profile image, upload it
         if ($_FILES['avatar']['error'] == 0)
         {
