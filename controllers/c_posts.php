@@ -28,7 +28,6 @@ class posts_controller extends base_controller{
 
         $this->template->client_files_body = Utils::load_client_files($client_files_body);
 
-
 		//Render Template
 		echo $this->template;
 	}	
@@ -48,13 +47,13 @@ class posts_controller extends base_controller{
 
 		# Save
 		DB::instance(DB_NAME)->insert('madlibs', $madlib);
+		
 
 		# Now we load the $view into the main template...didn't do this before the DB insert because we didn't want to save the entire template in the DB.
-		echo $this->template->content = $view;
+		$this->template->content = $view;
 
 		# Display the results
-		echo $this->template;
-				
+		echo $this->template;				
 	}
 	
 	public function users() {
