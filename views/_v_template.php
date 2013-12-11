@@ -100,7 +100,7 @@
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src='/js/jquery.form.js'></script>
-    	<script type="text/javascript" src='/js/jquery.validate.js'></script>
+    	
     	<!--<script type="text/javascript" src='/js/madlib_add.js'></script>-->
 		
 		<?php if(isset($client_files_body)) echo $client_files_body; ?>
