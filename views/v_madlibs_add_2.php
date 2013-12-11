@@ -1,4 +1,4 @@
-<form class="madlib_form" id="madlib2" method='post' action='/posts/p_add_2'>
+<form class="madlib_form" id="madlib2" method='post' action='/madlibs/p_add_2'>
     <fieldset id= "form-fieldset">
         Adjective:<input type="text" name="input1"><br>
         Plural Noun: <input type="text" name="input2"><br>

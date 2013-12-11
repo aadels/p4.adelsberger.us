@@ -63,7 +63,7 @@ class users_controller extends base_controller {
         //Insert user into database
         $user_id = DB::instance(DB_NAME)->insert_row('users', $_POST);
 
-        // all users follow their own posts by default
+        // all users follow their own madlibs by default
         $data = Array(
             "created" => Time::now(),
             "user_id" => $user_id,
@@ -190,7 +190,7 @@ class users_controller extends base_controller {
         $this->template->title = "Profile of ".$this->user->first_name . " " . $this->user->last_name; 
        
         //Pass the data to the view
-        $this->template->content->user_name = $user_name;
+        //$this->template->content->user_name = $user_name;
 
         // pass errors, if any
         $this->template->content->error = $error;
@@ -201,8 +201,10 @@ class users_controller extends base_controller {
     }
      public function profile_image() {
         // if user selects a profile image, upload it
-        if ($_FILES['avatar']['error'] == 0)
+        //var_dump($_FILES);
+        if ($_FILES['image']['error'] == 0)
         {
+            
             //upload an image
             $image = Upload::upload($_FILES, "/uploads/avatars/", array("JPG", "JPEG", "jpg", "jpeg", "gif", "GIF", "png", "PNG"), $this->user->user_id);
 

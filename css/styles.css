@@ -50,6 +50,9 @@ ul {
 #footer .row li{
     color: #fff;    
 }
+#footer_link a {
+    color: #fff;    
+}
 
 #footer .row a{
     color: #e4c325;

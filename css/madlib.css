@@ -1,6 +1,6 @@
 
 /************************************************************************ 
- * CSCI E-15 Project 3
+ * CSCI E-15 Project 4
  * Ann Adelsberger 
  * adelsbergerann@gmail.com
  ************************************************************************/
@@ -33,6 +33,10 @@ h2{
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
+input#image {
+	font-size: 12px;
+}
+
 input    {
 	font-size: 12px;
 	width:300px;
@@ -46,8 +50,9 @@ input    {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	padding-left: 15px;
-
 }
+
+
 
 input.button {
 	width:100px;
