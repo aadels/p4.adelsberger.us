@@ -23,3 +23,4 @@
 
 <!--form reset-->
  <script src='/js/formreset.js'></script>
+ <script src='/js/check_form.js'></script>

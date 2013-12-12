@@ -25,8 +25,8 @@
         	<div class="well post">
 				<h4> <?=$madlib['first_name']?> <?=$madlib['last_name'] ?> posted: </h4>
 				<p><?=$madlib['content'] ?></p>
-				<time datetime="<?=Time::display($madlib['created'],'Y-m-d G:i')?>">
-					<small><?=Time::display($madlib['created'])?></small>
+                <time datetime="<?=Time::display($madlib['created'],'Y-m-d G:i')?>">
+					<small id="index_time"><?=Time::display($madlib['created'])?></small>
 				</time>
 			</div>
 		</article>
