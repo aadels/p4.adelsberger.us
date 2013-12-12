@@ -20,14 +20,6 @@ class madlibs_controller extends base_controller{
 		//Pass errors, if any
 		$this->template->content->error = $error;
 
-		//Load JS files
-        $client_files_body = Array(
-        	//'/js/madlib_add.js', 
-        	'/js/jquery.form.js'
-        );
-
-        $this->template->client_files_body = Utils::load_client_files($client_files_body);
-
 		//Render Template
 		echo $this->template;
 	}	
@@ -65,13 +57,12 @@ public function add_2($error = NULL){
 		//Pass errors, if any
 		$this->template->content->error = $error;
 
-		//Load JS files
+		/*Load JS files
         $client_files_body = Array(
-        	//'/js/madlib_add.js', 
         	'/js/jquery.form.js'
         );
 
-        $this->template->client_files_body = Utils::load_client_files($client_files_body);
+        $this->template->client_files_body = Utils::load_client_files($client_files_body);*/
 
 		//Render Template
 		echo $this->template;
