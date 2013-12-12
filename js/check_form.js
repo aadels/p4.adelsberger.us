@@ -2,6 +2,11 @@
   function check_form(form)
   {
     // validation fails if the input is blank
+    /*if(form.input1.value == '') {
+      $('errors').innerHTML("Please fill in this field!");
+      form.input1.focus();
+      return false;
+    } */
     if(form.input1.value == '') {
       alert("Please fill out all fields!");
       form.input1.focus();
