@@ -1,22 +1,22 @@
-<h2>Sign Up</h2>
+<h3>Sign Up</h3>
 
 <form method='POST' action='/users/p_signup'>
 
     First Name<br>
     <input type='text' name='first_name'>
-    <br><br>
+    <br>
 
     Last Name<br>
     <input type='text' name='last_name'>
-    <br><br>
+    <br>
 
     Email<br>
     <input type='text' name='email'>
-    <br><br>
+    <br>
 
     Password<br>
     <input type='password' name='password'>
-    <br><br>
+    <br>
 
 
     <?php if(isset($error) && $error == 'blank-fields'): ?>
