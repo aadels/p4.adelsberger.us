@@ -19,7 +19,7 @@
 
 	<div class="row">
         <aside class="col-xs-2 col-lg-1">
-        	<img class="img-rounded" src="/uploads/avatars/<?= $user->image ?>" alt=" image of <?=$user->first_name . ' ' . $user->last_name ?>">
+        	<img class="img-rounded img-post" src="/uploads/avatars/<?=$post['image']?>">
         </aside>
     	<article class="col-xs-9 col-xs-offset-1 col-lg-10 col-lg-offset-1 ">
         	<div class="well post">
