@@ -9,7 +9,7 @@
         A special event: <input type="text" id="input7" name="input7"><br>
         Verb: <input type="text" id="input8" name="input8"><br>
         Noun: <input type="text" id="input9" name="input9" ><br>
-        Verb in the 3rd person present tense: <input type="text" id="input10" name="input10" ><br>
+        Verb: <input type="text" id="input10" name="input10" ><br>
         Noun: <input type="text" id="input11" name="input11"><br>
         Noun: <input type="text"  id="input12" name="input12"><br>
         Noun: <input type="text" id="input13" name="input13"><br>
