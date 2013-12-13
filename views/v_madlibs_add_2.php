@@ -4,7 +4,7 @@
         Plural Noun: <input type="text" id="input2" name="input2"><br>
         Feminine first name: <input type="text" id="input3" name="input3"><br>
         Last name: <input type="text" id="input4" name="input4"><br>
-        Noun: <input type="text" id="input5" ><br>
+        Noun: <input type="text" id="input5" name="input5"><br>
         A place: <input type="text" id="input6" name="input6"><br>
         A special event: <input type="text" id="input7" name="input7"><br>
         Verb: <input type="text" id="input8" name="input8"><br>
@@ -18,7 +18,6 @@
         <input type='button' class='reset' onclick="reset()" value='Reset form'><br>
 
         <input type='submit' class='button' value='See Mad-lib!'> 
-        
     </fieldset>          
 </form>
 

@@ -1,6 +1,6 @@
-
-  function check_form(form)
+ function check_form(form)
   {
+
     // validation fails if the input is blank
     /*if(form.input1.value == '') {
       $('errors').innerHTML("Please fill in this field!");
@@ -78,5 +78,6 @@
       return false;
     }
    // validation was successful
+ 
     return true;
-  }
+ }

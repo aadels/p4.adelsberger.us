@@ -1,0 +1,10 @@
+2013-12-13 6:21:44 - INFO --> -------------------------- 
+2013-12-13 6:21:44 - INFO --> Controller/Method: users/p_signup 
+2013-12-13 6:21:44 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY adelsbergerann@gmail.com 
+2013-12-13 6:21:44 - INFO --> From: Madlibs! (adelsbergerann@gmail.com) 
+2013-12-13 6:21:44 - INFO --> To: Larry (larry@gmail.com),  
+2013-12-13 6:21:44 - INFO --> CC:  
+2013-12-13 6:21:44 - INFO --> BCC:  
+2013-12-13 6:21:44 - INFO --> Subject: Welcome to Madlibs! 
+2013-12-13 6:21:44 - INFO --> Body: <!-- message sent to the user's email when they sign up -->
+Welcome to Madlibs! This email confirms your registration. 

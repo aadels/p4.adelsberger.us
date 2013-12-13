@@ -5,7 +5,7 @@
 	O <?=$data['input1']?> heart, hid with a(n) <?=$data['input2']?> face! <br>
 	Did ever dragon keep so fair a <?=$data['input3']?>?<br>
 	Beautiful <?=$data['input4']?>. fiend angelical! <br>
-	Dove-feathered <?=$data['input5']?>! <?=$data['input6']?>ish-ravening lamb! <br>
+	Dove-feathered <?=$data['input5']?>! <?=ucfirst($data['input6'])?> ish-ravening lamb! <br>
 	Despised <?=$data['input7']?> of divinest show! <br>
 	Just opposite to what thou justly seem’st,<br> 
 	A <?=$data['input8']?> saint, a(n) <?=$data['input9']?> villain! <br>
