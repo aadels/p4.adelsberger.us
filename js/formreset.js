@@ -1,4 +1,5 @@
-// reset form and preview div
+// resets all form fields
+
 function reset() {
     // reset form inputs
         $('form').reset();

@@ -1,3 +1,5 @@
+<!--form for madlib 2-->
+
 <form class="madlib_form" id="madlib2" method='post' action='/madlibs/p_add_2' onsubmit="return check_form(this);">
     <fieldset id= "form-fieldset">
         Adjective:<input type="text" id="input1" name="input1"><br>

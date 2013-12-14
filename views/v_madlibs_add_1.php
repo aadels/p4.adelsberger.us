@@ -1,3 +1,5 @@
+<!--form for madlib 1-->
+
 <form class="madlib_form" id="madlib1" method='post' action='/madlibs/p_add_1' onsubmit="return check_form(this);">
     <fieldset id= "form-fieldset">
         Animal: <input type="text" id="input1" name="input1"class ="form_input"><br>
