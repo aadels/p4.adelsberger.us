@@ -201,7 +201,7 @@ class users_controller extends base_controller {
     }
      public function profile_image() {
         // if user selects a profile image, upload it
-        //var_dump($_FILES);
+        
         if ($_FILES['image']['error'] == 0)
         {
             

@@ -111,7 +111,7 @@ public function add_2($error = NULL){
 		//Execute this query with the select_array method.
 		//The select_array will return ourresults in an array and use the "users_id Followed" field as the index.
 		//This will come in handy when we get to the view. 
-		//Store the results (an array) in teh variable $connections
+		//Store the results (an array) in the variable $connections
 
 		$connections = DB::instance(DB_NAME)->select_array($q, 'user_id_followed');
 
